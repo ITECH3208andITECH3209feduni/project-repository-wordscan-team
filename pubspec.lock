@@ -192,6 +192,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.6.6"
+  google_ml_kit:
+    dependency: "direct main"
+    description:
+      name: google_ml_kit
+      sha256: b1cd928f10c2079487503365ff959647d82caaf87a365082bde77d8b36b5432d
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.1"
   google_mlkit_commons:
     dependency: transitive
     description:
