@@ -445,7 +445,7 @@ class MyHomePageState extends State<MyHomePage> {
         _scannedText = extractedText;
       });
     } catch (e) {
-      // Handle error
+     //
     }
   }
 }
@@ -458,7 +458,7 @@ class StatisticsPage extends StatelessWidget {
   final ScrollController _cpbScrollController = ScrollController();
   final ScrollController _customScrollController = ScrollController();
 
-  // Define these variables as instance variables so they are accessible throughout the class
+  
   final Map<String, List<String>> cpbWords = {};
   final Map<String, int> cpbListCounts = {};
   final List<String> customWords = [];
@@ -476,17 +476,17 @@ class StatisticsPage extends StatelessWidget {
 
   List<String> _getNormalizedWords(String text) {
   return text
-      .replaceAll(RegExp(r'[^\w\s]'), '') // Remove punctuation
-      .toLowerCase() // Convert to lowercase
-      .split(RegExp(r'\s+')) // Split into words
-      .where((word) => word.isNotEmpty) // Remove empty words
+      .replaceAll(RegExp(r'[^\w\s]'), '') 
+      .toLowerCase() 
+      .split(RegExp(r'\s+')) 
+      .where((word) => word.isNotEmpty)
       .toList();
 }
 
 
-  // Initialize word statistics
+ 
   void _initializeWordStatistics() {
-  // Normalize the scanned text and split it into words
+  
   final words = _getNormalizedWords(scannedText);
 
   for (String list in selectedWordLists) {
