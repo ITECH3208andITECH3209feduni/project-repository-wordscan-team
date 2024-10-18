@@ -12,9 +12,9 @@ This is a Flutter-based application designed to scan words from a book and provi
 ## Setup Instructions
 1. Clone the repository or extract the ZIP file.
 2. Navigate to the project directory:
-   ```bash
+   
    cd "project directory"
-   ```
+   
 3. Fetch the dependencies:
    ```bash
    flutter pub get
