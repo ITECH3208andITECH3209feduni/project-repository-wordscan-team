@@ -27,6 +27,7 @@ This is a Flutter-based application designed to scan words from a book and provi
 ## Important Files and Directories
 - `lib/`: Contains the main application code.
 - `pubspec.yaml`: Flutter dependencies and assets.
+- `test/`: Contains test cases.
 - `android/` and `ios/`: Platform-specific files for Android and iOS builds.
 
 ## Version Information
